@@ -13,10 +13,10 @@ public class IntroToRandom {
 		//3. Now make r random. 
 		//   Create an object of the Random class
 		//	 use .nextInt() to get a random number
-		
-
+		r=new Random().nextInt((75 - 25)+1)+25;
+		System.out.println(r);
 		//4. Limit the random number between 0 and 100
-
+		
 		//5. Limit the random number between 25 and 75. Hint: ((highest value - lowest value)+1) + lowest value
 
 		//6. Challenge: Limit the random number between -222 and 88

@@ -9,6 +9,9 @@ public static void main(String[] args) {
 	if (numheight>48) {
 	JOptionPane.showMessageDialog(null, "Yay! You can go on the roller coaster!");
 	}
+	if(numheight<48) {
+	JOptionPane.showMessageDialog(null, "Sorry, you can't go on the roller coaster. You must be 48 inches or taller.");
 	}
+}
 }
 
